@@ -57,6 +57,7 @@ In order to verify the accuracy of the sampler function, comparsions between the
 ![Image text](https://raw.githubusercontent.com/Dustone-Mu/Dustone-Mu.github.io/main/images/sample_demo_gamma.png)
 
 > multinomial distribution
+
 ![Image text](https://raw.githubusercontent.com/Dustone-Mu/Dustone-Mu.github.io/main/images/sample_demo_multinomial.png)
 
 
