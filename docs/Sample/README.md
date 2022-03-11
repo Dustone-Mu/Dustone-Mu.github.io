@@ -7,9 +7,7 @@ sort: 2
 {% include list.liquid %}
 
 
-
 Sample on GPU
-
 
 
 >Function list
