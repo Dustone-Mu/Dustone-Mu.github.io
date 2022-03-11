@@ -1,7 +1,7 @@
 ---
-sort: 1
+sort: 3
 ---
 
-# Getting Started
+# Metric
 
 {% include list.liquid %}
