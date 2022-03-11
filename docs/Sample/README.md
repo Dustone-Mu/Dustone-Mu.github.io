@@ -54,12 +54,10 @@ In order to verify the accuracy of the sampler function, comparsions between the
 
 > gamma distribution
 
-![Image text]
-(https://raw.githubusercontent.com/Dustone-Mu/Dustone-Mu.github.io/main/images/sample_demo_gamma.png)
+![Image text](https://raw.githubusercontent.com/Dustone-Mu/Dustone-Mu.github.io/main/images/sample_demo_gamma.png)
 
 > multinomial distribution
-![Image text]
-(https://raw.githubusercontent.com/Dustone-Mu/Dustone-Mu.github.io/main/images/sample_demo_multinomial.png)
+![Image text](https://raw.githubusercontent.com/Dustone-Mu/Dustone-Mu.github.io/main/images/sample_demo_multinomial.png)
 
 
 The integral comparsion of sampler results and standard distribution can be found in pydpm/_example/Sampler_Demo.py
