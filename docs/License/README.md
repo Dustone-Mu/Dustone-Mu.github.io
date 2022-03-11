@@ -5,9 +5,18 @@ sort: 5
 # License
 
 
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+License: Apache License Version 2.0
+
+Contact:  Chaojie Wang <xd_silly@163.com>, Wei Zhao <13279389260@163.com>, Jiawen Wu <wjw19960807@163.com>
+
+Copyright (c), 2020, Chaojie Wang, Wei Zhao, Jiawen Wu, Xinyang Liu, Jie Ren, Yewen Li, Hao Zhang, Bo Chen and Mingyuan Zhou
+
+
+
+
+## <center> Apache License
+<center> Version 2.0, January 2004
+<center> http://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 

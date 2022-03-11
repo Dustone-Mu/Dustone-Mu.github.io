@@ -1,17 +1,14 @@
 ---
-sort: 1
+sort: 2
 ---
 
 # Installation
 
-SMAC is written in python3 and therefore requires an environment with python>=3.7. Furthermore, the random forest used in SMAC requires SWIG as a build dependency. Install it either in your environment or on your system directly. The command to install swig on linux machines is the following:
+=============
+This library can be installed under both Windows and Linux systems.
 
-## Requirements
+```
+$ pip install pydpm
+```
 
-ency. Install it either in your environment or on your system directly. The command to install swig on linux machines is the following:
-
-## Anaconda
-
-test
-
-23
+Under Windows system, we recommed to install Visual Studio 2019 and latest CUDA Toolkit. The combination of VS2019(with MSVC v142) and CUDA 11.5 has been tested in pydpm2.0.
