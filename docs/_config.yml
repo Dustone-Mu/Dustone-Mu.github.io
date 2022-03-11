@@ -1,6 +1,6 @@
 title: pyDPM doc
 lang: en
-description: Documents for pyDPM: A python library focuses on constructing deep probabilistic models on GPU.
+description: Documents for pyDPM
 
 remote_theme: rundocs/jekyll-rtd-theme
 
