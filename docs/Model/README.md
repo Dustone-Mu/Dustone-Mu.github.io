@@ -8,7 +8,7 @@ sort: 4
 
 
 Create Probabilistic Model
-=============
+
 
 >Model list
 >

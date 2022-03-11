@@ -9,7 +9,9 @@ sort: 2
 
 
 Sample on GPU
-=============
+
+
+
 >Function list
 
 The parameters of partial distribution functions are as following:
