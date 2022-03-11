@@ -1,37 +1,16 @@
-# Makefile for Sphinx documentation
+DEBUG=JEKYLL_GITHUB_TOKEN=blank PAGES_API_URL=http://0.0.0.0
 
-SPHINXBUILD   = sphinx-build
+default:
+	@gem install jekyll bundler && bundle install
 
-# User-friendly check for sphinx-build
-ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
-endif
-
-.PHONY: help clean buildapi html
-
-help:
-	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  clean      remove rendered files"
-	@echo "  buildapi   to rebuild the api-documentation"
-	@echo "  html       to make standalone HTML files"
-	@echo "  all        clean, buildapi, html"
+update:
+	@bundle update
 
 clean:
-	rm -rf apidoc
-	rm -rf html
-	rm -rf pages/examples
+	@bundle exec jekyll clean
 
-buildapi:
-	rm -rf apidoc
+build: clean
+	@${DEBUG} bundle exec jekyll build --profile --config _config.yml,.debug.yml
 
-	sphinx-apidoc -fePTMo apidoc/ ../smac/ --templatedir themes/smac/templates/apidoc
-	rm apidoc/smac.rst
-	rm apidoc/smac.configspace*
-
-html:
-	sphinx-build -b html . html -a
-
-all:
-	make clean
-	make buildapi
-	make html
+server: clean
+	@${DEBUG} bundle exec jekyll server --livereload --config _config.yml,.debug.yml
