@@ -2,6 +2,6 @@
 sort: 2
 ---
 
-# Examples
+# Sample
 
 {% include list.liquid %}

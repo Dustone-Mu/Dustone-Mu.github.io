@@ -1,6 +1,6 @@
-title: Your project name
+title: pyDPM
 lang: en
-description: a catchy description for your project
+description: Documents for pyDPM: A python library focuses on constructing deep probabilistic models on GPU.
 
 remote_theme: rundocs/jekyll-rtd-theme
 

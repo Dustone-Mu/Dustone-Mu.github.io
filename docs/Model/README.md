@@ -1,7 +1,7 @@
 ---
-sort: 3
+sort: 4
 ---
 
-# Details
+# Model
 
 {% include list.liquid %}
