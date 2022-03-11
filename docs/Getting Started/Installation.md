@@ -16,7 +16,7 @@ $ pip install pydpm
 
 ## Requirements
 
-pydpm is written in python 3 and accelerated by CUDA C++.
+Pydpm is written in python 3 and accelerated by CUDA C++.
 
 To achieve the best performance of the distribution sampling functions and the inference of probabilistic models, a GPU and NVIDIA CUDA Toolkit are necessary.
 
@@ -28,5 +28,5 @@ Other requirements of python packages are as following:
 > pycuda
 > gensim
 
-!!! warning
+!!! Tips
 Under Windows system, we recommed to install Visual Studio 2019 and latest CUDA Toolkit. The combination of VS2019(with MSVC v142) and CUDA 11.5 has been tested in pydpm2.0.
