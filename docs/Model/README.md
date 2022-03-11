@@ -7,12 +7,10 @@ sort: 4
 {% include list.liquid %}
 
 
-Create Probabilistic Model
+## Create Probabilistic Model
 
 
->Model list
->
-Model list is as following:
+>Model list is as following:
 
 |Probabilistic Model Name                  |Abbreviation |Paper Link|
 |------------------------------------------|-------------|----------|
@@ -29,7 +27,7 @@ Model list is as following:
 
 More probabilistic models will be further included in pydpm/_model/...
 
->Demo
+## Demo
 
 Create a PGBN model:
 ```python
@@ -49,6 +47,7 @@ results = ACC(train_local_params.Theta[0], test_local_params.Theta[0], train_lab
 # save the model after training
 model.save()
 ```
+
 More model demos can be found in pydpm/examples/...
 
 Source data can be found in [Link](https://drive.google.com/drive/folders/1_BH_0N6wfbUvTS-CCWs4YLFpDWqGRw7w?usp=sharing)
