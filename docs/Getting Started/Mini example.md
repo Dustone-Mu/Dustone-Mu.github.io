@@ -28,7 +28,7 @@ model.save()
 
 ## Distribution Sampling Functions
 
-Implement Gamma Distribution Sampling
+Implement Gamma Distribution Sampling: 
 
 ```python
 from pydpm._sampler import Basic_Sampler

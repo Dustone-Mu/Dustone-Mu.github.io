@@ -8,7 +8,7 @@ sort: 2
 
 This library can be installed under both Windows and Linux systems.
 
-Package can be cloned from [gituhub](https://github.com/BoChenGroup/pydpm) or installed by [PyPi](https://pypi.org/project/pydpm/).
+Package can be cloned from [GitHub](https://github.com/BoChenGroup/pydpm) or installed by [PyPi](https://pypi.org/project/pydpm/).
 
 ```
 $ pip install pydpm
@@ -28,5 +28,5 @@ Other requirements of python packages are as following:
 > pycuda
 > gensim
 
-!!! Tips
-Under Windows system, we recommed to install Visual Studio 2019 and latest CUDA Toolkit. The combination of VS2019(with MSVC v142) and CUDA 11.5 has been tested in pydpm2.0.
+!!! tip
+    Under Windows system, we recommed to install Visual Studio 2019 and latest CUDA Toolkit. The combination of VS2019(with MSVC v142) and CUDA 11.5 has been tested in pydpm2.0.
