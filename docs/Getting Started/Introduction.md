@@ -21,9 +21,9 @@ To this end, we present the **pyDPM** library, a Python package that has contain
 
 ## Software Description
 
-;[Pydpm](https://github.com/BoChenGroup/pydpm) is a Python Library for Deep Probabilistic Models
+[Pydpm](https://github.com/BoChenGroup/pydpm) is a Python Library for Deep Probabilistic Models
 
-;Pydpm focuses on constructing deep probabilistic models on GPU. It provides efficient distribution sampling functions and has included lots of implemented probabilistic models.
+Pydpm focuses on constructing deep probabilistic models on GPU. It provides efficient distribution sampling functions and has included lots of implemented probabilistic models.
 
 As shown in Fig. 1, the pyDPM library can be roughly split into four modules, which are Sampler, Model, Metric and Example modules, respectively. 
 
