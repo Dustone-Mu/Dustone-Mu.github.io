@@ -101,10 +101,12 @@ Outputs:
 > Detail
 
 $$
+\begin{equation}
 NMI(X,Y) = \frac {2MI(X, Y)} {H(X)+H(Y)}\\
-MI(X,Y) = \sum_{i=1}^{|X|} \sum_{j=1}{|Y|} P(i,j) log(\frac {P(i,j)} {P(i)P\`(j)})\\
+MI(X,Y) = \sum_{i=1}^{|X|} \sum_{j=1}{|Y|} P(i,j) log(\frac {P(i,j)} {P(i)P(j)})\\
 H(X) = -\sum_{i=1}^{|X|} P(i)log(P(i))\\
-H(Y) = -\sum_{j=1}^{|Y|} P\`(j)log(P\`(j))
+H(Y) = -\sum_{j=1}^{|Y|} P(j)log(P(j))
+\end{equation}
 $$
 
 
@@ -144,7 +146,7 @@ pydpm._metirc.Poisson_Likelihood(X, X_re)
 > Detail
 
 $$
-likelihood = \sum_i(X^i * log(X_{re}^i) - X_{re}^i - log(\gamma(X_{re}^i + 1)))
+L = \sum_i(X^i * log(X_{re}^i) - X_{re}^i - log(\gamma(X_{re}^i + 1)))
 $$
 
 
