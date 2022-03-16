@@ -4,7 +4,7 @@ sort: 2
 
 # Performance Evaluation
 
-## Compare with other libraries
+## Compare with Other Libraries
 
 The sampling efficiency comparisons between our Sampler module and other libraries under the same sampling conditions have been exhibited below
 
@@ -16,7 +16,7 @@ Compare the sampling speed of distribution functions with tensorflow and torch:
 The compared code can be found in pydpm/example/Sampler_Speed_Demo.py
 
 
-## An Evaluation demo
+## An Evaluation Demo
 
 In order to verify the accuracy of the sampler function, comparsions between the distribution of the sampling results and the actual distribution function are implemented. The results are as following
 
