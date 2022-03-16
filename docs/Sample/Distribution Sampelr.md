@@ -4,7 +4,7 @@ sort: 3
 
 # Distribution Sampelr
 
-## Introduction
+> Introduction
 
 In this part, comparsion between actual sampler results and standard distribution is implemented, and all distribution sampler demo are exhibited as well.
 
