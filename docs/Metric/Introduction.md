@@ -8,15 +8,15 @@ The Metric module provides a series of widely used topic modeling metrics to eva
 
 Metrics are as following:
 
-|  Metrics                       |  API                                        |
-|--------------------------------|---------------------------------------------|
-|  Classification Accuracy       |  ACC(theta0, theta1, label0, label1, model) |
-|  Cluster Accuracy              |  Cluster_ACC(y_true, y_pred)                |
-|  Normalized Mutual Information |  NMI(y_true, y_pred)                        |
-|  Perplexity                    |  Perplexity(x, x_reconstruct)               |
-|  Poisson Likelihood            |  Poisson_Likelihood(x, x_re)                |
-|  Reconstruction Error          |  Reconstruct_Error(x, x_re)                 |
-|  Topic Coherence               |  Topic_Coherence                            |
+|  Metrics                       |  API                                 |
+|--------------------------------|--------------------------------------|
+|  Classification Accuracy       |  ACC(x_tr, x_te, y_tr, y_te, model)  |
+|  Cluster Accuracy              |  Cluster_ACC(y_true, y_pred)         |
+|  Normalized Mutual Information |  NMI(y_true, y_pred)                 |
+|  Perplexity                    |  Perplexity(x, x_reconstruct)        |
+|  Poisson Likelihood            |  Poisson_Likelihood(x, x_re)         |
+|  Reconstruction Error          |  Reconstruct_Error(x, x_re)          |
+|  Topic Coherence               |  Topic_Coherence                     |
 
 All metric API are included in pydpm/_metric/...
 
