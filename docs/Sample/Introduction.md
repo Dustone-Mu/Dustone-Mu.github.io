@@ -4,13 +4,13 @@ sort: 1
 
 # Introduction
 
-## Sampler module
+## Sampler Module
 
 The Sampler module contains distribution and model sampler parts, both of which can be deployed on the platform with either CPU or GPU. Specifically, the former part, distribution sampler, has contained all of the basic distributions included in numpy (Van Der Walt et al., 2011), tensorflow (Abadi et al., 2016) and torch (Paszke et al., 2019), and the latter part, model sampler, provides additional model-specific samplers for updating the parameters in probabilistic topic models. Note that we have also provided both CPU and GPU versions for the Sampler module. 
 
 Specifically, the mainly difference between our Sampler module and the widely used numpy.random module is that you need to instantiate a sampler object and deploy it on CPU or GPU before starting sampling. Moreover, our Sampler module provides an interface parameter to indicate how many repetitions of distribution sampling are required, which makes our Sampler module more flexible than numpy.random in sampling some complicated distributions, like Multinomial and Dirchilet distributions. The sampling efficiency comparisons between our Sampler module and other libraries have been exhibited in [*Performance Evaluation*](https://dustone-mu.github.io/Sample/Performance%20Evaluation.html) part.
 
-## About GPU acceleration
+## About GPU Acceleration
 
 The Graphics Processing Unit (GPU) provides much higher instruction throughput and memory bandwidth than the CPU within a similar price and power envelope. Many applications leverage these higher capabilities to run faster on the GPU than on the CPU.
 
@@ -19,7 +19,7 @@ In general, an application has a mix of parallel parts and sequential parts, so 
 So pydpm take advantage of GPU parallelism by programme the probability distribution functions with CUDA C++ to accelerate the speed of sampler.
 
 
-## Distribution function list
+## Distribution Function List
 
 The parameters of partial distribution functions are as following:
 
