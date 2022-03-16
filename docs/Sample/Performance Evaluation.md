@@ -4,7 +4,7 @@ sort: 2
 
 # Performance Evaluation
 
-# Compare with other libraries
+## Compare with other libraries
 
 The sampling efficiency comparisons between our Sampler module and other libraries under the same sampling conditions have been exhibited below
 
