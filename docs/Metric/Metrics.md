@@ -101,12 +101,10 @@ Outputs:
 > Detail
 
 $$
-\begin{equation}
 NMI(X,Y) = \frac {2MI(X, Y)} {H(X)+H(Y)} \\ 
 MI(X,Y) = \sum_{i=1}^{|X|} \sum_{j=1}{|Y|} P(i,j) log(\frac {P(i,j)} {P(i)P(j)}) \\ 
 H(X) = -\sum_{i=1}^{|X|} P(i)log(P(i)) \\ 
 H(Y) = -\sum_{j=1}^{|Y|} P(j)log(P(j))
-\end{equation}
 $$
 
 
