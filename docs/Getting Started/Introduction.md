@@ -4,7 +4,7 @@ sort: 1
 
 # Introduction
 
-## About pyDPM
+## About PyDPM
 
 [pyDPM](https://github.com/BoChenGroup/pydpm)   [![PyPI](https://img.shields.io/pypi/v/gluonts.svg?style=flat-square)](https://pypi.org/project/gluonts/)   [![GitHub](https://img.shields.io/github/license/awslabs/gluon-ts.svg?style=flat-square)](./LICENSE)
 
@@ -17,13 +17,13 @@ With latent Dirchilet allocation (LDA) (Blei et al., 2001) being the best known 
 
 Although most of the aforementioned PTMs have released their source codes, these published projects are developed in a lot of various programming languages, like C (Ahmed et al., 2012), Matlab (Steyvers and Griffiths, 2011) and Java (McCallum, 2002; Ramage and Rosen, 2011) etc. And as far as we known, there is still no unified probabilistic library to collect or even summarize these PTMs under the same codebase. 
 
-To this end, we present the **pyDPM** library, a Python package that has contained a wide variety of [PTMs](https://dustone-mu.github.io/Model/), each of which has been reimplemented under a well-designd codebase and can be directly called from the library as an API. The pyDPM library also provides a [self-developed Sampler module](https://dustone-mu.github.io/Sample/), whose GPU version can greatly improve the sampling efficiency through CUDA’s parallel computing, and a [Metric module](https://dustone-mu.github.io/Metric/) to evaluate the performance of these PTMs after training. In the following sections, we will exhaustively describe the main features of the pyDPM library, instructions for installation and usage.
+To this end, we present the **PyDPM** library, a Python package that has contained a wide variety of [PTMs](https://dustone-mu.github.io/Model/), each of which has been reimplemented under a well-designd codebase and can be directly called from the library as an API. The pyDPM library also provides a [self-developed Sampler module](https://dustone-mu.github.io/Sample/), whose GPU version can greatly improve the sampling efficiency through CUDA’s parallel computing, and a [Metric module](https://dustone-mu.github.io/Metric/) to evaluate the performance of these PTMs after training. In the following sections, we will exhaustively describe the main features of the pyDPM library, instructions for installation and usage.
 
 ## Software Description
 
-[Pydpm](https://github.com/BoChenGroup/pydpm) is a Python Library for Deep Probabilistic Models
+[PyDPM](https://github.com/BoChenGroup/pydpm) is a Python Library for Deep Probabilistic Models
 
-Pydpm focuses on constructing deep probabilistic models on GPU. It provides efficient distribution sampling functions and has included lots of implemented probabilistic models.
+PyDPM focuses on constructing deep probabilistic models on GPU. It provides efficient distribution sampling functions and has included lots of implemented probabilistic models.
 
 As shown in Fig. 1, the pyDPM library can be roughly split into four modules, which are Sampler, Model, Metric and Example modules, respectively. 
 
