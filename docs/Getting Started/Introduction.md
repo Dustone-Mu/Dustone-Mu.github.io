@@ -6,7 +6,7 @@ sort: 1
 
 ## About PyDPM
 
-[pyDPM](https://github.com/BoChenGroup/pydpm)   [![PyPI](https://img.shields.io/pypi/v/gluonts.svg?style=flat-square)](https://pypi.org/project/gluonts/)   [![GitHub](https://img.shields.io/github/license/awslabs/gluon-ts.svg?style=flat-square)](./LICENSE)
+[PyDPM](https://github.com/BoChenGroup/pydpm)   [![PyPI](https://img.shields.io/pypi/v/gluonts.svg?style=flat-square)](https://pypi.org/project/gluonts/)   [![GitHub](https://img.shields.io/github/license/awslabs/gluon-ts.svg?style=flat-square)](./LICENSE)
 
 Probabilistic topic models (PTMs) have been proven as an effective way to discover latent semantic structures from a collection of documents, where each document is represented as a
 bag-of-words (BoW) vector, and been widely applied in the fields of machine learning (ML)
@@ -25,7 +25,7 @@ To this end, we present the **PyDPM** library, a Python package that has contain
 
 PyDPM focuses on constructing deep probabilistic models on GPU. It provides efficient distribution sampling functions and has included lots of implemented probabilistic models.
 
-As shown in Fig. 1, the pyDPM library can be roughly split into four modules, which are Sampler, Model, Metric and Example modules, respectively. 
+As shown in Fig. 1, the PyDPM library can be roughly split into four modules, which are Sampler, Model, Metric and Example modules, respectively. 
 
 Generally speaking, the Sampler module provides both the most basic distribution sampler and model sampler for training or testing the constructed PTMs on CPU or GPU; the Model module contains a wide variety of popular PTMs, which can be directly called as APIs in Python; the Metric module includes a series of widely used topic modeling metrics to evaluate these PTMs; For each topic model included in the Model module, the Example module provides a demo code equipped a detailed tutorial about how to use and evaluate this topic model.
 
